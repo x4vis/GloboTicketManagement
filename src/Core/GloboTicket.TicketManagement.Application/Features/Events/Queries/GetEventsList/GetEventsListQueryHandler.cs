@@ -7,7 +7,7 @@ using GloboTicket.TicketManagement.Domain.Entities;
 using GloboTicket.TicketManagement.Application.Contracts.Persistence;
 using AutoMapper;
 
-namespace GloboTicket.TicketManagement.Application.Features.Events
+namespace GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventsList
 {
   public class GetEventsListQueryHandler : IRequestHandler<GetEventsListQuery, List<EventListViewModel>>
   {
