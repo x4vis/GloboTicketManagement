@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E1E1DBA0-9276-4768-A520-D55E559519DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8104D8C4-D772-4ED3-93F5-72401E303A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Domain", "src\Core\GloboTicket.TicketManagement.Domain\GloboTicket.TicketManagement.Domain.csproj", "{4349C7FA-BAED-4621-9F9D-28E7185FCB01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Debug|x64.Build.0 = Debug|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Debug|x86.Build.0 = Debug|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Release|x64.ActiveCfg = Release|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Release|x64.Build.0 = Release|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Release|x86.ActiveCfg = Release|Any CPU
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8104D8C4-D772-4ED3-93F5-72401E303A1C} = {E1E1DBA0-9276-4768-A520-D55E559519DD}
+		{4349C7FA-BAED-4621-9F9D-28E7185FCB01} = {8104D8C4-D772-4ED3-93F5-72401E303A1C}
+	EndGlobalSection
+EndGlobal
