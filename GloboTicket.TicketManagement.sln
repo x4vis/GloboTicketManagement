@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8104D8C4-D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Domain", "src\Core\GloboTicket.TicketManagement.Domain\GloboTicket.TicketManagement.Domain.csproj", "{4349C7FA-BAED-4621-9F9D-28E7185FCB01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Application", "src\Core\GloboTicket.TicketManagement.Application\GloboTicket.TicketManagement.Application.csproj", "{D321AF96-3858-42D0-AA5C-806A621A6722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,9 +36,22 @@ Global
 		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Release|x64.Build.0 = Release|Any CPU
 		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Release|x86.ActiveCfg = Release|Any CPU
 		{4349C7FA-BAED-4621-9F9D-28E7185FCB01}.Release|x86.Build.0 = Release|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Debug|x64.Build.0 = Debug|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Debug|x86.Build.0 = Debug|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Release|x64.ActiveCfg = Release|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Release|x64.Build.0 = Release|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Release|x86.ActiveCfg = Release|Any CPU
+		{D321AF96-3858-42D0-AA5C-806A621A6722}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8104D8C4-D772-4ED3-93F5-72401E303A1C} = {E1E1DBA0-9276-4768-A520-D55E559519DD}
 		{4349C7FA-BAED-4621-9F9D-28E7185FCB01} = {8104D8C4-D772-4ED3-93F5-72401E303A1C}
+		{D321AF96-3858-42D0-AA5C-806A621A6722} = {8104D8C4-D772-4ED3-93F5-72401E303A1C}
 	EndGlobalSection
 EndGlobal
